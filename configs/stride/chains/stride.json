@@ -3,13 +3,14 @@
   "value": {
     "key": "wallet",
     "chain-id": "STRIDE-TESTNET-2",
-    "rpc-addr": "http://95.217.155.136:16657",
+    "rpc-addr": "http://",
     "account-prefix": "stride",
     "keyring-backend": "test",
     "gas-adjustment": 1.2,
     "gas-prices": "0.000ustrd",
-    "debug": "false",
+    "gas": 200000,
     "timeout": "20s",
+    "trusting-period": "8h",
     "output-format": "json",
     "sign-mode": "direct"
   }
